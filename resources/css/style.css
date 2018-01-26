@@ -177,10 +177,21 @@ nav span {
 
 .contact {
   width: 1200px;
+  height: 200px;
+}
+
+.contact h2 {
+  -webkit-margin-before: 11px;
+  -webkit-margin-after: 39px;
+}
+
+.contact h5 {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 30px;
 }
 
 footer {
-  height: 200px;
+  height: 82px;
   margin-left: 20px;
   text-align: left;
 }
