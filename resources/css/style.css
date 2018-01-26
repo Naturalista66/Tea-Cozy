@@ -8,6 +8,7 @@ body {
     margin: auto;
 }
 
+/* header CSS */
 header {
   display: flex;
   align-items: center;
@@ -31,6 +32,10 @@ nav span {
   padding: 20px 10px;
 }
 
+nav span a {
+  color: seashell;
+}
+
 .logo {
   display: flex;
   padding-left: 10px;
@@ -49,13 +54,14 @@ nav span {
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 70px; /* account for header */
 }
 
+/* mission section CSS */
 .mission {
   display: flex;
   height: 700px;
@@ -81,7 +87,9 @@ nav span {
   -webkit-margin-after: 12px;
 }
 
+/* featured menu section CSS */
 .featured-menu {
+  display: flex;
   width: 1000px;
   height: 770px;
   display: flex;
@@ -131,10 +139,11 @@ nav span {
   padding-left: 15px;
 }
 
+/* Locations section CSS */
 .locations {
   display: flex;
   /* height: 500px; */ /* size "marked off" in redline */
-  height: 570px; /* size measured from redline */
+  height: 570px; /* size measured from redline - we will use this instead */
   width: 1200px;
   flex-direction: column;
   background-image: url("../../resources/images/img-locations-background.jpg")
@@ -175,6 +184,7 @@ nav span {
   -webkit-margin-after: 30px;
 }
 
+/* contact section CSS */
 .contact {
   width: 1200px;
   height: 200px;
@@ -190,6 +200,7 @@ nav span {
   -webkit-margin-after: 30px;
 }
 
+/* footer CSS */
 footer {
   height: 82px;
   margin-left: 20px;
