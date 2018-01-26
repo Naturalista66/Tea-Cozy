@@ -92,8 +92,25 @@ nav span {
 
 .menu-row {
   width: inherit;
+  height: 265px;
   display: flex;
   justify-content: center;
+}
+
+.menu-title {
+  width: inherit;
+  height: 190px;
+}
+
+.menu-title h2 {
+  -webkit-margin-before: 80px;
+  -webkit-margin-after: 0px;
+}
+
+.menu-title p {
+  font-weight: bold;
+  -webkit-margin-before: 20px;
+  -webkit-margin-after: 30px;
 }
 
 .menu-item {
@@ -104,10 +121,14 @@ nav span {
 
 .menu-item span {
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .menu-item img {
-  padding: 10px;
+  padding-top: 0px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
 }
 
 .locations {
